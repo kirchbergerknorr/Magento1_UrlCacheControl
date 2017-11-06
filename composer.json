@@ -1,0 +1,9 @@
+{
+  "name": "kirchbergerknorr/magento1_url-cache-control",
+  "type": "magento-module",
+  "description": "Append last modified timestamp to skin url's to automatically burst cache on changes.",
+  "minimum-stability": "dev",
+  "authors": [
+    {"name": "Nick Dilßner", "email": "nd@kirchbergerknorr.de"}
+  ]
+}

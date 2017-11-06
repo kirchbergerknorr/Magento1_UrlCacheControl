@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author      Nick Dilßner <nd@kirchbergerknorr.de>
+ * @copyright   Copyright (c) 2017 kirchbergerknorr GmbH (http://www.kirchbergerknorr.de)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+
+<config>
+    <modules>
+        <kirchbergerknorr_urlCacheControl>
+            <version>1.0.0</version>
+        </kirchbergerknorr_urlCacheControl>
+    </modules>
+    <global>
+        <helpers>
+            <kirchbergerknorr_urlCacheControl>
+                <class>Kirchbergerknorr_UrlCacheControl_Helper</class>
+            </kirchbergerknorr_urlCacheControl>
+            <core>
+                <rewrite>
+                    <unserializeArray>Kirchbergerknorr_UrlCacheControl_Mage_Core_Model_Design_Package</unserializeArray>
+                </rewrite>
+            </core>
+        </helpers>
+        <models>
+            <core>
+                <rewrite>
+                    <design_package>Kirchbergerknorr_UrlCacheControl_Mage_Core_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>
