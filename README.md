@@ -4,7 +4,7 @@ Magento 1.x Extension
 
 ## Overview
 
-This module appends the modified timestamp to skin url's, to automatically burst Browser Cache on changes.
+This module appends the modified timestamp to skin URLs, to automatically bust Browser Cache on changes.
 
 ## Requirements and setup
 
@@ -14,20 +14,6 @@ Tested with Magento 1.9.3.6
 
 This extension can be installed using [Composer](https://getcomposer.org/doc/01-basic-usage.md)
 
-### Setup
-
-Simple add repository to your composer.json
-
-````json
-{
-    "repositories": [
-        {"type": "git", "url": "https://github.com/kirchbergerknorr/Magento1_UrlCacheControl.git"}
-    ],
-    "require": {
-        "kirchbergerknorr/magento1_url-cache-control": "^1.*"
-    }
-}
-````
 
 ## Details
 
@@ -44,7 +30,7 @@ This Module just add a unix-timestamp parameter to each skin-url which uses
 \Mage_Core_Model_Design_Package::getMergedJsUrl()
 ````
 
-to get url's like that example:
+to get URLs like that example:
 
 ````html
 <!-- merged css -->

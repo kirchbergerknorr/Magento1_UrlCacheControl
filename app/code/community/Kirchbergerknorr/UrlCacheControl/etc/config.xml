@@ -9,20 +9,15 @@
 
 <config>
     <modules>
-        <kirchbergerknorr_urlCacheControl>
+        <Kirchbergerknorr_urlCacheControl>
             <version>1.0.0</version>
-        </kirchbergerknorr_urlCacheControl>
+        </Kirchbergerknorr_urlCacheControl>
     </modules>
     <global>
         <helpers>
-            <kirchbergerknorr_urlCacheControl>
+            <Kirchbergerknorr_urlCacheControl>
                 <class>Kirchbergerknorr_UrlCacheControl_Helper</class>
-            </kirchbergerknorr_urlCacheControl>
-            <core>
-                <rewrite>
-                    <unserializeArray>Kirchbergerknorr_UrlCacheControl_Mage_Core_Model_Design_Package</unserializeArray>
-                </rewrite>
-            </core>
+            </Kirchbergerknorr_urlCacheControl>
         </helpers>
         <models>
             <core>

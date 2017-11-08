@@ -18,13 +18,15 @@ class Kirchbergerknorr_UrlCacheControl_Mage_Core_Model_Design_Package extends Ma
      */
     public function getSkinUrl($file = null, array $params = array())
     {
+        // <COPY - optimized with getFilename() (contains updateParamDefaults(), but without referenced params - that means all changes happens in parent, except 'type')
+        //         and excluded $params['_default'], because updateParamDefaults() also handles that
         if (empty($params['_type'])) {
             // not sure if this is really the best, because that means if i would set a type, this method also get other url's the skin
             $params['_type'] = self::SKIN;
         }
 
-        $this->updateParamDefaults($params);
         $filename = $this->getFilename($file, $params);
+        // COPY>
 
         return $this->addModifiedParam(
             parent::getSkinUrl($file, $params),
