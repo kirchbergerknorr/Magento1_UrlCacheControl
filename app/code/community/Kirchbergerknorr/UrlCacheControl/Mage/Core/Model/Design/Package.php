@@ -1,7 +1,7 @@
 <?php
 /**
  * @author      Nick Dilßner <nd@kirchbergerknorr.de>
- * @copyright   Copyright (c) 2017 kirchbergerknorr GmbH (http://www.kirchbergerknorr.de)
+ * @copyright   Copyright (c) 2018 kirchbergerknorr GmbH (http://www.kirchbergerknorr.de)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Kirchbergerknorr_UrlCacheControl_Mage_Core_Model_Design_Package extends Mage_Core_Model_Design_Package

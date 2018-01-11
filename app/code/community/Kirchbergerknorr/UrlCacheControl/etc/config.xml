@@ -2,22 +2,22 @@
 <!--
 /**
  * @author      Nick Dilßner <nd@kirchbergerknorr.de>
- * @copyright   Copyright (c) 2017 kirchbergerknorr GmbH (http://www.kirchbergerknorr.de)
+ * @copyright   Copyright (c) 2018 kirchbergerknorr GmbH (http://www.kirchbergerknorr.de)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 -->
 
 <config>
     <modules>
-        <Kirchbergerknorr_urlCacheControl>
+        <Kirchbergerknorr_UrlCacheControl>
             <version>1.0.0</version>
-        </Kirchbergerknorr_urlCacheControl>
+        </Kirchbergerknorr_UrlCacheControl>
     </modules>
     <global>
         <helpers>
-            <Kirchbergerknorr_urlCacheControl>
+            <Kirchbergerknorr_UrlCacheControl>
                 <class>Kirchbergerknorr_UrlCacheControl_Helper</class>
-            </Kirchbergerknorr_urlCacheControl>
+            </Kirchbergerknorr_UrlCacheControl>
         </helpers>
         <models>
             <core>
