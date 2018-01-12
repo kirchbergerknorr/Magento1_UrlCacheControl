@@ -22,7 +22,7 @@
         <models>
             <core>
                 <rewrite>
-                    <design_package>Kirchbergerknorr_UrlCacheControl_Mage_Core_Model_Design_Package</design_package>
+                    <design_package>Kirchbergerknorr_UrlCacheControl_Model_Design_Package</design_package>
                 </rewrite>
             </core>
         </models>
